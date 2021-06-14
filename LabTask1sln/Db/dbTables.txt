@@ -1,0 +1,25 @@
+CREATE TABLE [dbo].[Admin] (
+    [Id]       INT           NOT NULL,
+    [Name]     NVARCHAR (50) NULL,
+    [Password] NVARCHAR (50) NULL,
+    PRIMARY KEY CLUSTERED ([Id] ASC)
+);
+
+CREATE TABLE [dbo].[Student] (
+    [Id]     NVARCHAR (50) NOT NULL,
+    [Name]   NVARCHAR (50) NULL,
+    [Credit] INT           NULL,
+    [CGPA]   FLOAT (53)    NULL,
+    [DoB]    DATETIME2 (7) NULL,
+    [DepID]  NVARCHAR (50) NULL,
+    PRIMARY KEY CLUSTERED ([Id] ASC)
+);
+
+CREATE TABLE [dbo].[Table] (
+    [Id]   INT           NOT NULL,
+    [Name] NVARCHAR (50) NULL,
+    PRIMARY KEY CLUSTERED ([Id] ASC)
+);
+
+DB CON: Data Source=DESKTOP-4BCMUD5;Initial Catalog=ASPMVCLabTask1;Integrated Security=True
+DB Source: DESKTOP-4BCMUD5
