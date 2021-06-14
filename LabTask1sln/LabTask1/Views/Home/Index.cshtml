@@ -1,4 +1,5 @@
-﻿@{
+﻿@model LabTask1.Models.AdminModel
+@{
     ViewBag.Title = "Home Page";
 }
 <div class="titel text-center text-uppercase">
@@ -7,12 +8,15 @@
 </div>
 <hr />
 <div class="contenar">
-    
-    <form action="#" method="post" class="d-flex justify-content-center">
+
+    <form action="/Home/Create" method="post" class="d-flex justify-content-center">
         <div class="element ">
             <input class="form-control" type="text" value="" name="Name" placeholder="Name" />
+            @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
             <input class="form-control" type="text" value="" name="ID" placeholder="ID" />
-            <input class="form-control" type="password" value="" name="pass" placeholder="Password" />
+            @Html.ValidationMessageFor(model => model.ID, "", new { @class = "text-danger" })
+            <input class="form-control" type="password" value="" name="Password" placeholder="Password" />
+            @Html.ValidationMessageFor(model => model.Password, "", new { @class = "text-danger" })
             <input class="btn btn-success" type="submit" value="submit" />
             <input class="btn btn-danger" type="reset" value="reset" />
         </div>

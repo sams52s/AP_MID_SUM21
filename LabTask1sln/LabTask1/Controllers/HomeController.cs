@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LabTask1.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -10,21 +11,18 @@ namespace LabTask1.Controllers
     {
         public ActionResult Index()
         {
-            return View();
+            AdminModel a = new AdminModel();
+            return View(a);
         }
-
-        public ActionResult Create()
+        [HttpPost]
+        public ActionResult Create(AdminModel a)
         {
-
-
-            return View();
+            StudentModel s = new StudentModel();
+            return View(s);
         }
-
-        public ActionResult Student()
+        public ActionResult Student(StudentModel s)
         {
-           
-
-            return View();
+            return View(s);
         }
     }
 }
