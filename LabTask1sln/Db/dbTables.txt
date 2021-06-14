@@ -20,6 +20,8 @@ CREATE TABLE [dbo].[Table] (
     [Name] NVARCHAR (50) NULL,
     PRIMARY KEY CLUSTERED ([Id] ASC)
 );
-
+DB name: ASPMVCLabTask1
 DB CON: Data Source=DESKTOP-4BCMUD5;Initial Catalog=ASPMVCLabTask1;Integrated Security=True
 DB Source: DESKTOP-4BCMUD5
+DB connection string: 
+string connString = @"Server=DESKTOP-4BCMUD5;Database=ASPMVCLabTask1;Integrated Security=true;";

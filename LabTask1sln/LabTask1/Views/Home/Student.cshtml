@@ -5,11 +5,33 @@
 }
 
 <h1>Student Info</h1>
-<p>
-    Name: @Model.Name
-    ID: @Model.ID
-    Date of Birth: @Model.DoB
-    CGPA: @Model.CGPA
-    Credit: @Model.Credit
 
-</p>
+<div class="contener">
+    <table class="table table-hover" >
+        <tr>
+            <th class="text-center">Name</th>
+            <th class="text-center">ID</th>
+            <th class="text-center">Date of Birth:</th>
+            <th class="text-center">CGPA</th>
+            <th class="text-center">Credit</th>
+            <th class="text-center"></th>
+            <th class="text-center"></th>
+        </tr>
+        <tr>
+            <td class="text-center"> @Model.Name</td>
+            <td class="text-center"> @Model.ID</td>
+            <td class="text-center"> @Model.DoB</td>
+            <td class="text-center"> @Model.CGPA</td>
+            <td class="text-center"> @Model.Credit</td>
+            <td class="text-center"><a class="btn btn-success" href="/Home/Create">Edit</a></td>
+            <td class="text-center"><a class="btn btn-danger" href="/Home/Create">Delete</a></td>
+        </tr>
+    </table>
+</div>
+    
+    
+   
+    
+     
+
+
