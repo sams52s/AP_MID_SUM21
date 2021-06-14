@@ -8,15 +8,16 @@ namespace LabTask1.Models.DataBase
 {
     public class Database
     {
-        public Student student { get; set; }
-        public Admin admin { get; set; }
-        public Department department { get; set; }
+        public Student Student { get; set; }
+        public Admin Admin { get; set; }
+        public Department Department { get; set; }
         public Database()
         {
             string connString = @"Server=DESKTOP-4BCMUD5;Database=ASPMVCLabTask1;Integrated Security=true;";
             SqlConnection conn = new SqlConnection(connString);
-            student = new Student(conn);
-            admin = new Admin(conn);
+            Student = new Student(conn);
+            Admin = new Admin(conn);
+
         }
     }
 }

@@ -1,4 +1,4 @@
-﻿@model LabTask1.Models.StudentModel
+﻿@model List<LabTask1.Models.StudentModel>
 
 @{
     ViewBag.Title = "Student";
@@ -7,31 +7,36 @@
 <h1>Student Info</h1>
 
 <div class="contener">
-    <table class="table table-hover" >
+    <table class="table table-hover">
         <tr>
             <th class="text-center">Name</th>
             <th class="text-center">ID</th>
             <th class="text-center">Date of Birth:</th>
             <th class="text-center">CGPA</th>
             <th class="text-center">Credit</th>
+            <th class="text-center">Department ID</th>
             <th class="text-center"></th>
             <th class="text-center"></th>
         </tr>
-        <tr>
-            <td class="text-center"> @Model.Name</td>
-            <td class="text-center"> @Model.ID</td>
-            <td class="text-center"> @Model.DoB</td>
-            <td class="text-center"> @Model.CGPA</td>
-            <td class="text-center"> @Model.Credit</td>
-            <td class="text-center"><a class="btn btn-success" href="/Home/Create">Edit</a></td>
-            <td class="text-center"><a class="btn btn-danger" href="/Home/Create">Delete</a></td>
-        </tr>
+        @foreach (var StudentModel in @Model)
+        {
+    <tr>
+        <td>@StudentModel.ID</td>
+        <td>@StudentModel.Name</td>
+        <td>@StudentModel.DoB</td>
+        <td>@StudentModel.CGPA</td>
+        <td>@StudentModel.Credit</td>
+        <td>@StudentModel.DepID</td>
+        <td><a class="btn btn-success" href="/Home/Student/@StudentModel.ID">Edit</a></td>
+        <td><a class="btn btn-danger">Delete</a></td>
+    </tr>
+        }
     </table>
 </div>
-    
-    
-   
-    
-     
+
+
+
+
+
 
 

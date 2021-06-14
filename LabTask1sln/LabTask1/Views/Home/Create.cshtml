@@ -9,11 +9,12 @@
         <div class="element">
             <input class="form-control" type="text" value="" name="Name" placeholder="Name" />
             @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
-            <input class="form-control" type="text" value="" name="ID" placeholder="ID" />
+            <input class="form-control" type="text" value="" name="Id" placeholder="ID" />
             @Html.ValidationMessageFor(model => model.ID, "", new { @class = "text-danger" })
             <input class="form-control" type="date" value="" name="DoB" placeholder="Date of barth" />
             <input class="form-control" type="text" value="" name="CGPA" placeholder="CGPA" />
             <input class="form-control" type="text" value="" name="Credit" placeholder="Credit" />
+            <input class="form-control" type="text" value="" name="DepID" placeholder="DepID" />
             <input class="btn btn-success" type="submit" value="submit" />
             <input class="btn btn-danger" type="reset" value="reset" />
         </div>

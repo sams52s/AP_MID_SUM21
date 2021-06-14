@@ -28,13 +28,19 @@ namespace LabTask1.Controllers
         [HttpPost]
         public ActionResult Create(StudentModel s)
         {
-            Database db = new Database();
-            db.Student.Insert(s);
-            return RedirectToAction("Student");
+            if (ModelState.IsValid)
+            {
+                Database db = new Database();
+                db.Student.Insert(s);
+                return RedirectToAction("Student");
+            }
+            return View();
         }
         public ActionResult Student()
         {
-            return View();
+            Database db = new Database();
+            var Student = db.Student.Get();
+            return View(Student);
         }
     }
 }

@@ -11,11 +11,12 @@ namespace LabTask1.Models
         [Required(ErrorMessage = "Please put your name")]
         public string Name { get; set; }
         [MaxLength(10, ErrorMessage = "Max Length 10")]
-        public string ID { get; set; }
+        public int ID { get; set; }
         public string DoB { get; set; }
         public float CGPA { get; set; }
         [Required]
         public int Credit { get; set; }
+        public int DepID { get; set; }
     }
     public class AdminModel
     {
