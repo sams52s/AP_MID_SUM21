@@ -1,0 +1,29 @@
+A review portal where every user can give review and rating. They can hunt down their desire products review and rating. Seller can give their produces advertisement and do online selling. 
+Here will be 4 types of users
+1.	User.
+2.	Seller.
+3.	Admin.
+4.	System Admin.
+User:
+I.	Can create edit and delete their ID.
+II.	Can upload review.
+III.	Can give rating.
+IV.	Can view post and comment on it.
+V.	Can take online services available.
+VI.	Can order product or connect with sellers.
+Seller:
+i.	Can create edit and delete their ID.
+ii.	Can upload advertisement.
+iii.	Can sell products.
+iv.	Can view their advertisement and give reply on it
+Admin: 
+i.	Can Add delete another admin and system admin.
+ii.	Can remove post and advertisement.
+iii.	Can delete user and seller id.
+iv.	Can update online services.
+System Admin:
+i.	Update database.
+ii.	Monitor total application.
+iii.	Provide admin database information. 
+iv.	Provide monthly revenue.
+v.	Add new features.  
