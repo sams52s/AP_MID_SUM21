@@ -1,0 +1,47 @@
+﻿@{
+    ViewBag.Title = "reginfo";
+}
+
+<h3>Fill the form properly for Registration</h3>
+<div class="login">
+    <fieldset>
+        <legend>Student Registration</legend>
+        <form id="reginfo" action="/Student/StudentInfo" method="post">
+            <div class="form-group row">
+                <label for="ID">ID: </label>
+                <input type="text" id="ID" name="ID" placeholder="**-*****-*"> <br>
+                <label for="Name">Name: </label>
+                <input type="text" id="Name" name="Name" placeholder="Name"> <br>
+                <label for="Email">Email:</label>
+                <input type="text" id="Email" name="Email" placeholder="Email"> <br>
+                <label for="Password">Password:</label>
+                <input type="password" id="Password" name="Password" placeholder="********"> <br>
+                <label for="CPassword">Confirm Password:</label>
+                <input type="password" id="CPassword" name="CPassword" placeholder="Must be same as password"> <br>
+                <label for="dob">Date Of Birth:</label>
+                <input type="date" id="dob" name="dob" placeholder="YYYY-MM-DD"> <br>
+                <label for="phoneNumber">phone Number:</label>
+                <input type="text" id="phoneNumber" name="phoneNumber" placeholder="01*********"> <br><br>
+                <fieldset>
+                    <legend>Address</legend>
+                    City: <input type="text" id="City" name="City"> <br>
+                    Area: <input type="text" id="Area" name="Area"> <br>
+                    Country: <input type="text" id="Country" name="Country"> <br>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Depertment</legend>
+                    <label for="DepID">Choose a Depertment:</label>
+                    <select name="DepID" id="DepID" form="reginfo">
+                        <option value="null">Select a Depertment</option>
+                        <option value="CSE">CSE</option>
+                        <option value="EEE">EEE</option>
+                        <option value="BBA">BBA</option>
+                        <option value="English">English</option>
+                    </select>
+                </fieldset>
+                <input type="submit" class="btn btn-success" value="submit">
+            </div>
+        </form>
+    </fieldset>
+</div>
