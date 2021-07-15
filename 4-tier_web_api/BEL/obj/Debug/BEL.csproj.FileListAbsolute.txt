@@ -1,0 +1,6 @@
+G:\University\Univ\8th sem\Final\.NET\Code\4-tier_web_api\BEL\bin\Debug\BEL.dll
+G:\University\Univ\8th sem\Final\.NET\Code\4-tier_web_api\BEL\bin\Debug\BEL.pdb
+G:\University\Univ\8th sem\Final\.NET\Code\4-tier_web_api\BEL\obj\Debug\BEL.csproj.AssemblyReference.cache
+G:\University\Univ\8th sem\Final\.NET\Code\4-tier_web_api\BEL\obj\Debug\BEL.csproj.CoreCompileInputs.cache
+G:\University\Univ\8th sem\Final\.NET\Code\4-tier_web_api\BEL\obj\Debug\BEL.dll
+G:\University\Univ\8th sem\Final\.NET\Code\4-tier_web_api\BEL\obj\Debug\BEL.pdb
