@@ -1,4 +1,5 @@
-﻿using BLL;
+﻿using BEL;
+using BLL;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,6 +16,18 @@ namespace _4_tier_web_api.Controllers
         public List<string>GetNames()
         {
             return DepartmentService.GetDepartementNames();
+        }
+        [Route("api/Department/GetAll")]
+        [HttpGet]
+        public List<DepartmentModel>GetAllDepartments() {
+
+            return DepartmentService.GetDepartments();
+        }
+        [Route("api/Department/Add")]
+        [HttpPost]
+        public void add(DepartmentModel dept)
+        {
+            DepartmentService.AddDepartment(dept);
         }
     }
 }

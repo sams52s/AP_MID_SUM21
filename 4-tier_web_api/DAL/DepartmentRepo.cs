@@ -18,5 +18,14 @@ namespace DAL
             var data = context.Departments.Select(e => e.Name).ToList();
             return data;
         }
+        public static List<Department> GetDepartments()
+        {
+            return context.Departments.ToList();
+        }
+        public static void AddDepartment(Department d)
+        {
+            context.Departments.Add(d);
+            context.SaveChanges();
+        }
     }
 }
