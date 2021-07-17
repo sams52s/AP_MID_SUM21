@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <script src="myjs.js"></script>
+    <!--  <script src="angular1.8.2.js"></script>-->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <script>
+        var app = angular.module("myApp", []);
+        app.controller("demo", function($scope) {
+            var dob = "8-10-2000";
+            $scope.dob = "8/12/1998";
+            $scope.names = ["Sams", "Toufiq", "surjo", "Alam"];
+            $scope.i = 1;
+
+            $http.get("https://localhost:44353/api/Product").then(function(response) {
+                $scope.products = response.data;
+            }, function(errr) {});
+        });
+    </script>
+</head>
+
+<body ng-app="myApp">
+    <!--   <p id="id"></p>
+    <script>
+        printHellow();
+    </script>-->
+    <div ng-app>
+        <!--  <input type="text" ng-model="name" ng-init="id='19-39297-1'">
+        <p>{{ name }}</p>
+        <br> <h3>{{ name }}</h3>
+        <h3>{{ id }}</h3>
+        -->
+        <input type="text" ng-model="name" ng-init="id='19-39297-1'">
+        <input type="text" ng-model="name2">
+        <p>{{ name+" "+ name2 }}</p>
+    </div>
+    <div ng-init="fname='Toufiqul alam';lname='sams'; a=10;b=12;">
+        My name is {{ fname+ ' ' + lname }} <br> My age is: {{ a+b }} <br>
+    </div>
+    <div ng-controller="demo">
+        <p>{{ dob }}</p>
+        <span></span>
+        <p>Names</p>
+        <ul>
+            <li ng-repeat="name in names">{{ name }}</li>
+        </ul>
+        <table border="1">
+            <tr ng-repeat="name in names">
+                <td>{{ $index+1 }}+" "+Name:</td>
+                <td>{{ name }}</td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td>Id</td>
+                <td>Name</td>
+                <td>Price</td>
+                <td>Quantity</td>
+            </tr>
+            <tr>
+                <td>{{ p.Id }}</td>
+                <td>{{ p.Name }}</td>
+                <td>{{ p.Price }}</td>
+                <td>{{ p.Qty }}</td>
+            </tr>
+        </table>
+
+    </div>
+
+</body>
