@@ -1,0 +1,12 @@
+G:\University\Univ\8th sem\.Net\Git\4-tier_web_api(part2)\4-tier_web_api(part2)\DAL\bin\Debug\DAL.dll.config
+G:\University\Univ\8th sem\.Net\Git\4-tier_web_api(part2)\4-tier_web_api(part2)\DAL\bin\Debug\DAL.dll
+G:\University\Univ\8th sem\.Net\Git\4-tier_web_api(part2)\4-tier_web_api(part2)\DAL\bin\Debug\DAL.pdb
+G:\University\Univ\8th sem\.Net\Git\4-tier_web_api(part2)\4-tier_web_api(part2)\DAL\bin\Debug\EntityFramework.dll
+G:\University\Univ\8th sem\.Net\Git\4-tier_web_api(part2)\4-tier_web_api(part2)\DAL\bin\Debug\EntityFramework.SqlServer.dll
+G:\University\Univ\8th sem\.Net\Git\4-tier_web_api(part2)\4-tier_web_api(part2)\DAL\bin\Debug\EntityFramework.xml
+G:\University\Univ\8th sem\.Net\Git\4-tier_web_api(part2)\4-tier_web_api(part2)\DAL\bin\Debug\EntityFramework.SqlServer.xml
+G:\University\Univ\8th sem\.Net\Git\4-tier_web_api(part2)\4-tier_web_api(part2)\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+G:\University\Univ\8th sem\.Net\Git\4-tier_web_api(part2)\4-tier_web_api(part2)\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+G:\University\Univ\8th sem\.Net\Git\4-tier_web_api(part2)\4-tier_web_api(part2)\DAL\obj\Debug\DAL.csproj.CopyComplete
+G:\University\Univ\8th sem\.Net\Git\4-tier_web_api(part2)\4-tier_web_api(part2)\DAL\obj\Debug\DAL.dll
+G:\University\Univ\8th sem\.Net\Git\4-tier_web_api(part2)\4-tier_web_api(part2)\DAL\obj\Debug\DAL.pdb
