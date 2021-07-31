@@ -17,8 +17,8 @@
             $scope.names = ["Sams", "Toufiq", "surjo", "Alam"];
             $scope.i = 1;
 
-            $http.get("https://localhost:44353/api/Product").then(function(response) {
-                $scope.products = response.data;
+            $http.get("https://localhost:44332/api/Student/GetAll").then(function(response) {
+                $scope.students = response.data;
             }, function(errr) {});
         });
     </script>
@@ -55,18 +55,16 @@
                 <td>{{ name }}</td>
             </tr>
         </table>
-        <table>
+        <table border="1" style="border-collapse:collapse">
             <tr>
                 <td>Id</td>
                 <td>Name</td>
-                <td>Price</td>
-                <td>Quantity</td>
+                <td>Department</td>
             </tr>
-            <tr>
-                <td>{{ p.Id }}</td>
-                <td>{{ p.Name }}</td>
-                <td>{{ p.Price }}</td>
-                <td>{{ p.Qty }}</td>
+            <tr ng-repeat="s in students">
+                <td>{{s.Id}}</td>
+                <td>{{s.Name}}</td>
+                <td>{{s.DepartmentName}}</td>
             </tr>
         </table>
 

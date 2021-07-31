@@ -13,10 +13,10 @@ namespace DAL
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class StudentMSEntities : DbContext
+    public partial class StudentMSEntities1 : DbContext
     {
-        public StudentMSEntities()
-            : base("name=StudentMSEntities")
+        public StudentMSEntities1()
+            : base("name=StudentMSEntities1")
         {
         }
     
