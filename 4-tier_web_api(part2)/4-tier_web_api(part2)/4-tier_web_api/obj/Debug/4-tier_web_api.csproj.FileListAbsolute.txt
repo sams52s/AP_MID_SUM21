@@ -53,3 +53,8 @@ G:\University\Univ\8th sem\.Net\Git\4-tier_web_api(part2)\4-tier_web_api(part2)\
 G:\University\Univ\8th sem\.Net\Git\4-tier_web_api(part2)\4-tier_web_api(part2)\4-tier_web_api\bin\EntityFramework.xml
 G:\University\Univ\8th sem\.Net\Git\4-tier_web_api(part2)\4-tier_web_api(part2)\4-tier_web_api\bin\EntityFramework.SqlServer.dll
 G:\University\Univ\8th sem\.Net\Git\4-tier_web_api(part2)\4-tier_web_api(part2)\4-tier_web_api\bin\EntityFramework.SqlServer.xml
+G:\University\Univ\8th sem\.Net\Git\4-tier_web_api(part2)\4-tier_web_api(part2)\4-tier_web_api\bin\AutoMapper.dll
+G:\University\Univ\8th sem\.Net\Git\4-tier_web_api(part2)\4-tier_web_api(part2)\4-tier_web_api\bin\AutoMapper.xml
+G:\University\Univ\8th sem\.Net\Git\4-tier_web_api(part2)\4-tier_web_api(part2)\4-tier_web_api\bin\System.Web.Cors.dll
+G:\University\Univ\8th sem\.Net\Git\4-tier_web_api(part2)\4-tier_web_api(part2)\4-tier_web_api\bin\System.Web.Http.Cors.dll
+G:\University\Univ\8th sem\.Net\Git\4-tier_web_api(part2)\4-tier_web_api(part2)\4-tier_web_api\bin\System.Web.Http.Cors.xml

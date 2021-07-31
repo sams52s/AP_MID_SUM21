@@ -27,5 +27,10 @@ namespace DAL
             context.Departments.Add(d);
             context.SaveChanges();
         }
+
+        public static Department GetDepartmentDetail(int id)
+        {
+            return context.Departments.FirstOrDefault(e => e.Id == id);
+        }
     }
 }
