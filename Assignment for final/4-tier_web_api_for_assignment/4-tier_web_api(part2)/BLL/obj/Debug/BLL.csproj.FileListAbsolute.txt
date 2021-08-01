@@ -1,0 +1,16 @@
+G:\University\Univ\8th sem\.Net\Git\4-tier_web_api(part2)\4-tier_web_api(part2)\BLL\bin\Debug\BLL.dll
+G:\University\Univ\8th sem\.Net\Git\4-tier_web_api(part2)\4-tier_web_api(part2)\BLL\bin\Debug\BLL.pdb
+G:\University\Univ\8th sem\.Net\Git\4-tier_web_api(part2)\4-tier_web_api(part2)\BLL\bin\Debug\BEL.dll
+G:\University\Univ\8th sem\.Net\Git\4-tier_web_api(part2)\4-tier_web_api(part2)\BLL\bin\Debug\DAL.dll
+G:\University\Univ\8th sem\.Net\Git\4-tier_web_api(part2)\4-tier_web_api(part2)\BLL\bin\Debug\EntityFramework.dll
+G:\University\Univ\8th sem\.Net\Git\4-tier_web_api(part2)\4-tier_web_api(part2)\BLL\bin\Debug\BEL.pdb
+G:\University\Univ\8th sem\.Net\Git\4-tier_web_api(part2)\4-tier_web_api(part2)\BLL\bin\Debug\DAL.pdb
+G:\University\Univ\8th sem\.Net\Git\4-tier_web_api(part2)\4-tier_web_api(part2)\BLL\bin\Debug\DAL.dll.config
+G:\University\Univ\8th sem\.Net\Git\4-tier_web_api(part2)\4-tier_web_api(part2)\BLL\bin\Debug\EntityFramework.xml
+G:\University\Univ\8th sem\.Net\Git\4-tier_web_api(part2)\4-tier_web_api(part2)\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+G:\University\Univ\8th sem\.Net\Git\4-tier_web_api(part2)\4-tier_web_api(part2)\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+G:\University\Univ\8th sem\.Net\Git\4-tier_web_api(part2)\4-tier_web_api(part2)\BLL\obj\Debug\BLL.csproj.CopyComplete
+G:\University\Univ\8th sem\.Net\Git\4-tier_web_api(part2)\4-tier_web_api(part2)\BLL\obj\Debug\BLL.dll
+G:\University\Univ\8th sem\.Net\Git\4-tier_web_api(part2)\4-tier_web_api(part2)\BLL\obj\Debug\BLL.pdb
+G:\University\Univ\8th sem\.Net\Git\4-tier_web_api(part2)\4-tier_web_api(part2)\BLL\bin\Debug\AutoMapper.dll
+G:\University\Univ\8th sem\.Net\Git\4-tier_web_api(part2)\4-tier_web_api(part2)\BLL\bin\Debug\AutoMapper.xml
