@@ -1,0 +1,6 @@
+G:\University\Univ\8th sem\.Net\Git\Assignment for final\PMS-4tier_WEB_API_Assingment_sln\BEL\bin\Debug\BEL.dll
+G:\University\Univ\8th sem\.Net\Git\Assignment for final\PMS-4tier_WEB_API_Assingment_sln\BEL\bin\Debug\BEL.pdb
+G:\University\Univ\8th sem\.Net\Git\Assignment for final\PMS-4tier_WEB_API_Assingment_sln\BEL\obj\Debug\BEL.csproj.AssemblyReference.cache
+G:\University\Univ\8th sem\.Net\Git\Assignment for final\PMS-4tier_WEB_API_Assingment_sln\BEL\obj\Debug\BEL.csproj.CoreCompileInputs.cache
+G:\University\Univ\8th sem\.Net\Git\Assignment for final\PMS-4tier_WEB_API_Assingment_sln\BEL\obj\Debug\BEL.dll
+G:\University\Univ\8th sem\.Net\Git\Assignment for final\PMS-4tier_WEB_API_Assingment_sln\BEL\obj\Debug\BEL.pdb
